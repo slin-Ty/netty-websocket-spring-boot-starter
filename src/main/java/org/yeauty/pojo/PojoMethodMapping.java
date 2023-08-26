@@ -347,6 +347,7 @@ public class PojoMethodMapping {
         resolvers.add(new TextMethodArgumentResolver());
         resolvers.add(new ThrowableMethodArgumentResolver());
         resolvers.add(new ByteMethodArgumentResolver());
+        resolvers.add(new BinaryMethodArgumentResolver());
         resolvers.add(new RequestParamMapMethodArgumentResolver());
         resolvers.add(new RequestParamMethodArgumentResolver(beanFactory));
         resolvers.add(new PathVariableMapMethodArgumentResolver());
